@@ -9,7 +9,7 @@ module OmniAuth
         :site => 'https://api.linkedin.com',
         :request_token_path => '/uas/oauth/requestToken',
         :access_token_path => '/uas/oauth/accessToken',
-        :authorize_url => 'https://www.linkedin.com/uas/oauth/authenticate'
+        :authorize_url => 'https://www.linkedin.com/uas/oauth/authorize'
       }
 
       option :fields, ["id", "email-address", "first-name", "last-name", "headline", "industry", "picture-url", "public-profile-url", "location"]
